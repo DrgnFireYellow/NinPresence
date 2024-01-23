@@ -20,3 +20,17 @@ If on Windows:
 `python ninpresence.py`
 
 Lastly, paste in the application id in the first field and select a game.
+
+## FAQ
+
+- Q: Help! A game I play isn't here!
+
+  A: To add a new game to the database you can simply add it to the dictionary in ninpresence.py and make a pull request.
+
+- Q: When I try to select a different game it doesn't change my rich presence.
+
+  A: To change games you need to restart the application.
+
+- Q: When I select a game it doesn't display on discord.
+
+  A: You need to add a discord application id through the process explained in "Getting Started".
